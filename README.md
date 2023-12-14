@@ -26,6 +26,20 @@
 - Google Fonts
 - Vanilla JS
 
+## Run Locally
+
+Clone the project
+
+```bash
+   git clone https://github.com/Shevabey/e-commered-barokah.git
+```
+
+Go to the project directory
+
+```bash
+  cd e-commered-barokah
+```
+
 ### Contributing
 
 I'm very open to those of you who want to contribute to the undangan!
