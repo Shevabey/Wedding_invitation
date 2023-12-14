@@ -31,13 +31,13 @@
 Clone the project
 
 ```bash
-   git clone https://github.com/Shevabey/e-commered-barokah.git
+   git clone https://github.com/Shevabey/tugas_tekweb.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd e-commered-barokah
+  cd tugas_tekweb
 ```
 
 ### Contributing
