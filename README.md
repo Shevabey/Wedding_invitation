@@ -26,6 +26,20 @@
 - Google Fonts
 - Vanilla JS
 
+## Run Locally
+
+Clone the project
+
+```bash
+   git clone https://github.com/Shevabey/tugas_tekweb.git
+```
+
+Go to the project directory
+
+```bash
+  cd tugas_tekweb
+```
+
 ### Contributing
 
 I'm very open to those of you who want to contribute to the undangan!
