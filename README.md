@@ -1,21 +1,47 @@
-# Template website undangan pernikahan sederhana
+### lANGKAH lANGKAH (PASTIKAN DENGAN GIT, SAYA REKOMENDASI DENGAN GIT VSCODE)
+1. CEK STATUS CODINGAN KALIAN TERTINGGAL BERAPA COMMIT  DENGAN
+   ```bash
+   git status
+   ```
+2. MENGAMBIL CODINGAN TERBARU
+   ```bash
+   git pull
+   ```
+3. Cardnya jangan lupa digeser ke progres
+   https://github.com/users/Shevabey/projects/3/views/1
 
-![Thumbnail](/assets/images/banner.png)
-![pages-build-deployment](https://github.com/dewanakl/undangan/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)
-![Hits](https://badge.dikit.my.id/undangan?label=hits&color=brightgreen)
-
-## Demo
-
-<https://dewanakl.github.io/undangan/?to=Teman+teman+semua>
-
-### Deployment API
-
-- Vercel
-[https://dikit.my.id/DeploymentApiVercel](https://dikit.my.id/DeploymentApiVercel)
-
-- Hosting
-[https://dikit.my.id/DeploymentApiHosting](https://dikit.my.id/DeploymentApiHosting)
-
+4. MEMBUAT BRANCH SEBELUM CODING AGAR CODINGAN KALIAN DAPAT MASUK PROGRES (tidak pakai tanda kurung)
+   ```bash
+   git branch (nama branch kalian)
+   ```
+5. PINDAH DARI BRANCH MAIN KE BRANCH YG SUDAH DIBUAT (tidak pakai tanda kurung)
+   ```bash
+   git checkout (nama branch kalian)
+   ```
+6. Mulai kerjakan coding kaian sesuai task, jangn lupa dibaca deskripsi detail taks kalian di cardnya
+    https://github.com/users/Shevabey/projects/3/views/1
+7. CEK CODINGAN KALIAN DULU APA SESUAI ATAU BELUM DENGAN TASK YG D BERIKAN DENGAN LIVE SERVER
+8. JIKA DIRASA BELUM YAKIN BISA SS ATAU KIRIM VIDIO KE GRUP
+9. JIKA SUDAH YAKIN BENAR SILAHKAN PUSH PERUBAHAN KODINGAN KALIAN DENGAN GIT
+   ```bash
+   git add .
+   ```
+10. LALU COMMIT CODINGAN KALIAN DAN BERI PESAN APA YANG DI MODIFIKASI sesuai task
+   ```bash
+   git COMMIT -M "apa pesannya?"
+   ```
+11. LALU PUSH KE GITHUB (tanpa kurung)
+   ```bash
+   git push -u origin (nama branch kalian)
+   ```
+12. LALU MASUK KE REPO SAYA
+   https://github.com/Shevabey/tugas_tekweb
+13. KLIK PULL AND REQUEST DIATAS ICON CODE WARNA HIJAU
+14. SCROLL KEBAWAH LALU KLIK CONVERT TOMBOL WARNA HIJAU
+15. LALU SCROLL KEBAWAH KLIK TOMBOL WARNA HIJAU PULL REQUEST
+16. TUNGGU KETUA PERIKSA CODINGAN
+17. HASIL AKHIR AKAN DIBERITAHUKAN LEWAT GRUB
+   
 ### Tech stack
 
 - Bootstrap 5.3.2
