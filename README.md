@@ -28,7 +28,7 @@
    ```
 10. LALU COMMIT CODINGAN KALIAN DAN BERI PESAN APA YANG DI MODIFIKASI sesuai task
    ```bash
-   git COMMIT -M "apa pesannya?"
+   git commit -m "apa pesannya?"
    ```
 11. LALU PUSH KE GITHUB (tanpa kurung)
    ```bash
