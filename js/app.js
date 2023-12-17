@@ -119,18 +119,20 @@ const util = (() => {
     };
 
     const timer = () => {
-        let countDownDate = (new Date(document.getElementById('tampilan-waktu').getAttribute('data-waktu').replace(' ', 'T'))).getTime();
-
+        // Set tanggal dan waktu yang diinginkan (20 Januari 2024 pukul 09:00:00)
+        let countDownDate = new Date('2024-01-20T09:00:00').getTime();
+    
         setInterval(() => {
-            let distance = Math.abs(countDownDate - (new Date()).getTime());
-
+            let distance = Math.abs(countDownDate - new Date().getTime());
+    
             document.getElementById('hari').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
             document.getElementById('jam').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             document.getElementById('menit').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             document.getElementById('detik').innerText = Math.floor((distance % (1000 * 60)) / 1000);
         }, 1000);
     };
-
+    
+    
     const play = (btn) => {
         if (btn.getAttribute('data-status') !== 'true') {
             btn.setAttribute('data-status', 'true');
