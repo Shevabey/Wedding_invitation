@@ -23,9 +23,13 @@ body::-webkit-scrollbar {
     color: #090909 !important;
 }
 
+.mb-0 {
+    color: #090909 !important;
+}
+
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
-    color: #ffffff !important;
+    color: #090909 !important;
 }
 
 .img-crop {
