@@ -63,6 +63,14 @@ body::-webkit-scrollbar {
     z-index: 1056 !important;
 }
 
+.loading-page::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
 .card-body {
     overflow-wrap: break-word !important;
 }
