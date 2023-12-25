@@ -70,10 +70,3 @@ Go to the project directory
 
 I'm very open to those of you who want to contribute to the undangan!
 
-### Security Vulnerabilities
-
-If you find any security vulnerabilities in this undangan, please email DKL via [dewanakretarta29@gmail.com](mailto:dewanakretarta29@gmail.com).
-
-### License
-
-Undangan is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
